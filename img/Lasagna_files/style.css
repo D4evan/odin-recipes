@@ -1,0 +1,29 @@
+* {
+    font-family: helvetica, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.img-cook {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pages-links {
+    list-style: none;
+    font-size: 32px;
+    text-align: center;
+    background: yellow;
+}
+
+h1 {text-align: center;}
+
+.dish-img {
+    float:left;
+}
+
+li {
+    max-width:500px;
+    margin-left: auto;
+    margin-right: auto;
+}
