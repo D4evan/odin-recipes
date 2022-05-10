@@ -1,5 +1,9 @@
 * {
     font-family: helvetica, sans-serif;
+    font-size: 18px;
+    /*border: solid red;*/
+    background-color:honeydew;
+
 }
 
 .img-cook {
@@ -19,7 +23,11 @@
 
 h1 {
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
+}
+
+h2 {
+    font-size:30px;
 }
 
 .dish-img {
@@ -39,8 +47,15 @@ h1 {
     padding:20px
 }
 
+.ingredients li,
+.steps li,
+.description
+ {
+    background-color: lightgoldenrodyellow;
+}
+
 #block-one p,ul{
-    width:700px;
+    width:750px;
 }
 
 h2 {
@@ -49,10 +64,16 @@ h2 {
 ol {
     text-align: left;
     width: 1000px;
+    list-style-position: inside;
 }
 
 ol li {
     padding:5px;
+}
+
+ul {
+    list-style-position: inside;
+    padding:0;
 }
 
 .appetit {
