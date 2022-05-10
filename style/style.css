@@ -1,7 +1,5 @@
 * {
     font-family: helvetica, sans-serif;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .img-cook {
@@ -25,25 +23,38 @@ h1 {
 }
 
 .dish-img {
-    float:left;
     height: 350px;
     width: auto;
+    margin-top:80px;
 }
 
-ul {
-    display:inline-block;
+.flex-container{
+    display:flex;
+}
+
+#block-one {
+    flex: 1;
+    border-color:blue;
+    width:200px;
+    padding:20px
+}
+
+#block-one p,ul{
     width:700px;
-    margin-left: -120px;
-    margin-right: auto;
 }
 
 h2 {
-    padding: 10px;
+    padding: 0,10px;
 }
 ol {
     text-align: left;
-    margin-left:auto;
+    width: 1000px;
 }
+
+ol li {
+    padding:5px;
+}
+
 .appetit {
     height: 250px;
 }
